@@ -63,6 +63,14 @@
             <version>8.31.1</version>
         </dependency>
 
+         <!-- Add this to fix 'package jakarta.persistence does not exist' -->
+         <dependency>
+           <groupId>jakarta.persistence</groupId>
+           <artifactId>jakarta.persistence-api</artifactId>
+           <version>3.1.0</version>
+         </dependency>
+
+
         <!-- Redis Spring Data -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
