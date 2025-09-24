@@ -48,6 +48,13 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- javax.persistence for Spring Boot 2.7.9 -->
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>javax.persistence-api</artifactId>
+            <version>2.2</version>
+        </dependency>
+
         <!-- Lombok for boilerplate code -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -62,14 +69,6 @@
             <artifactId>twilio</artifactId>
             <version>8.31.1</version>
         </dependency>
-
-         <!-- Add this to fix 'package jakarta.persistence does not exist' -->
-         <dependency>
-           <groupId>jakarta.persistence</groupId>
-           <artifactId>jakarta.persistence-api</artifactId>
-           <version>2.2.3</version>
-         </dependency>
-
 
         <!-- Redis Spring Data -->
         <dependency>
