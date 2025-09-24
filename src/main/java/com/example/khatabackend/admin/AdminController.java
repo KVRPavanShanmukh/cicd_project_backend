@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/admin")
-@CrossOrigin(origins = "http://51.21.190.86:5173/admin", allowCredentials = "true")
+@CrossOrigin(origins = "http://13.220.211.135:5173/admin", allowCredentials = "true")
 public class AdminController {
     @Autowired
     private AdminService adminService;
